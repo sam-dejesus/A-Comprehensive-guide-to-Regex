@@ -169,7 +169,7 @@ look-behind works the same using this type of syntax  ((?<=pattern1)pattern2). s
 
 
 ## **Author**
-Thank you for reading if you have any questions, comments, or concerns  feel free to contact me or follow me on [github](https://github.com/sam-dejesus)
+Thank you for reading if you have any questions, comments, or concerns  feel free to contact me or follow me on [Github](https://github.com/sam-dejesus).
 
 
 
