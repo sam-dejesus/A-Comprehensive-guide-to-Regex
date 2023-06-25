@@ -24,9 +24,9 @@ Throughout the tutorial, we will break down the regex pattern designed to valida
 # Regex Components
 Here is a quick reference for regex components.
 
-<mark>Literal Characters</mark>: These are ordinary characters that match themselves. For example, the letter "a" in a regex pattern will match the letter "a" in the text being searched.
+`Literal Characters`: These are ordinary characters that match themselves. For example, the letter "a" in a regex pattern will match the letter "a" in the text being searched.
 
-<mark>Meta-characters</mark>: These are special characters with predefined meanings in regex. They include:
+`Meta-characters`: These are special characters with predefined meanings in regex. They include:
 - (.) (dot): Matches any single character except a newline.
 - (^) (caret): Matches the beginning of a line or string.
 - ($) (dollar sign): Matches the end of a line or string.
@@ -37,13 +37,13 @@ Here is a quick reference for regex components.
 - (|) (pipe): Represents the logical OR operation, matching either the expression before or after the pipe.
 - (\) (backslash): Escapes meta-characters, allowing you to match them literally.
 
-<mark>Character Classes</mark>: These specify a set of characters to match. For example, [a-z] matches any lowercase letter.
+`Character Classes`: These specify a set of characters to match. For example, [a-z] matches any lowercase letter.
 
-<mark>Quantifiers</mark>: These specify how many times an element should occur. Examples include * (zero or more), + (one or more), ? (zero or one), and {n} (exactly n occurrences).
+`Quantifiers`: These specify how many times an element should occur. Examples include * (zero or more), + (one or more), ? (zero or one), and {n} (exactly n occurrences).
 
-<mark>Grouping and Capturing</mark>: Parentheses ( ) are used to group elements together and capture matched text for later use. This allows you to apply quantifiers or other operations to multiple characters or sub-patterns.
+`Grouping and Capturing`: Parentheses ( ) are used to group elements together and capture matched text for later use. This allows you to apply quantifiers or other operations to multiple characters or sub-patterns.
 
-<mark>Anchors</mark>: ^ and $ are used as anchors to match the beginning and end of a line or string, respectively.
+`Anchors`: ^ and $ are used as anchors to match the beginning and end of a line or string, respectively.
 
 We will dive into more detail about Regex components and their syntax.
 
